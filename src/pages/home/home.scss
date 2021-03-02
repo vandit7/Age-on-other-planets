@@ -1,0 +1,40 @@
+page-home {
+    .toolbar-background toolbar-background-md{
+        background-color: black;
+        color: white;
+    }
+    .btnstr{
+        background-color: #af04ff;
+        color: white;
+        padding: 14px 40px;
+    
+    }
+    
+    }
+    
+    
+    .toolbar-background-md{
+        background-color: #222;
+    }
+    .toolbar-title-md{
+        color: #fff;
+    }
+    .content-md{
+        background-image: url('../../assets/imgs/bg.png');
+        background-color: #000;
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+    }
+    .home_p .scroll-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 15px !important;
+    }
+    .home_p .scroll-content .video_add {
+        flex: 1;
+    }
+    .toolbar-title-md{
+        font-size: 1.5rem;
+    }

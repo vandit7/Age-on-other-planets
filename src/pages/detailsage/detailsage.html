@@ -1,0 +1,89 @@
+<!--
+  Generated template for the DetailsagePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <!-- <ion-navbar>
+    <ion-title>{{fullname}}</ion-title>
+  </ion-navbar> -->
+</ion-header>
+
+<ion-content>
+  <div id="tablelist">
+    <div class="mdiv">
+      <div class="title">{{fullname}}</div>
+      <div class="">{{localdate}}</div>
+    </div>
+    <div class="main_box">
+      <div class="box_col">
+        <h4>Marcury</h4>
+        <img src="../../assets/imgs/mercury.png">
+        <span>in Year <b>{{marcuryYear}}</b></span>
+        <span>in days <b>{{marcuryday}}</b></span>
+      </div>
+      <div class="box_col">
+        <h4>Venus</h4>
+        <img src="../../assets/imgs/venus.png">
+        <span>in Year <b>{{venusYear}}</b></span>
+        <span>in days <b>{{venusday}}</b></span>
+      </div>
+      <div class="box_col">
+        <h4>Earth</h4>
+        <img src="../../assets/imgs/earth.png">
+        <span>in Year <b>{{earthYear}}</b></span>
+        <span>in days <b>{{earthday}}</b></span>
+      </div>
+      <div class="box_col">
+        <h4>Mars</h4>
+        <img src="../../assets/imgs/mars.png">
+        <span>in Year <b>{{marsYear}}</b></span>
+        <span>in days <b>{{marsday}}</b></span>
+      </div>
+      <div class="box_col">
+        <h4>Jupiter</h4>
+        <img src="../../assets/imgs/jupiter.png">
+        <span>in Year <b>{{jupiterYear}}</b></span>
+        <span>in days <b>{{jupiterday}}</b></span>
+      </div>
+      <div class="box_col">
+        <h4>Saturn</h4>
+        <img src="../../assets/imgs/saturn.png">
+        <span>in Year <b>{{saturnYear}}</b></span>
+        <span>in days <b>{{saturnday}}</b></span>
+      </div>
+      <div class="box_col">
+        <h4>Uranusday</h4>
+        <img src="../../assets/imgs/uranus.png">
+        <span>in Year <b>{{neptuneYear}}</b></span>
+        <span>in days <b>{{uranusday}}</b></span>
+      </div>
+      <div class="box_col">
+        <h4>Neptune</h4>
+        <img src="../../assets/imgs/neptune.png">
+        <span>in Year <b>{{neptuneYear}}</b></span>
+        <span>in days <b>{{neptuneday}}</b></span>
+      </div>
+      <div class="box_col">
+        <h4>Pluto</h4>
+        <img src="../../assets/imgs/pluto.png">
+        <span>in Year <b>{{plutoYear}}</b></span>
+        <span>in days <b>{{plutoday}}</b></span>
+      </div>
+      <small>@your_age_on_other_planets</small>
+    </div>
+  </div>
+
+  <div text-center margin-top class="d-flex-btn">
+    <button ion-button (click)="generateBase64_encode()" class="btnstr">
+      <img src="../../assets/imgs/download.svg">
+      Download
+    </button>
+    <button ion-button class="btnfollow">
+      <img src="../../assets/imgs/share.svg">
+      Share
+    </button>
+  </div>
+
+</ion-content>

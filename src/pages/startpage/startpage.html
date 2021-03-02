@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Your Age on Other Planets</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home_p">
+  <div class="video_add">
+    <!-- VIDEO ADS -->
+    <img style="height: 200px;" src="../../assets/imgs/logo2.png">
+</div>
+  <div>
+    <!-- <ion-item>
+      <ion-col text-center>
+        <h3>Image Picker</h3>
+      </ion-col>
+    </ion-item> -->
+    
+    <ion-item>
+      <ion-label stacked>Full Name</ion-label>
+      <ion-input [(ngModel)]="fullname" placeholder="Full Name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Enter your B-date</ion-label>
+      <ion-datetime [(ngModel)]="bdate" displayFormat="MM/DD/YYYY" placeholder="MM/DD/YYYY"></ion-datetime>
+    </ion-item>
+
+    <div text-center margin-top>
+      <button ion-button (click)="calculate()" class="btnstr">
+        Calculate
+      </button>
+    </div>
+    <div text-center margin-top class="d-flex-btn">
+      <button ion-button class="btnstr">
+        <img src="../../assets/imgs/star.svg">
+        Rate Us
+      </button>
+      <a href="https://www.instagram.com/your_age_on_other_planets/?igshid=8azr12kgemuf">
+      <button ion-button class="btnfollow">
+        <img src="../../assets/imgs/follow.svg">
+        Follow us
+      </button>
+    </a>
+    </div>
+  </div>
+</ion-content>
